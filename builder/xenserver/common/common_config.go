@@ -14,7 +14,7 @@ import (
 
 	commonssh "github.com/hashicorp/packer/common/ssh"
 
-	"github.com/mitchellh/mapstructure"
+	// "github.com/mitchellh/mapstructure"
 	"github.com/mitchellh/multistep"
 
 	xsclient "github.com/xenserver/go-xenserver-client"
