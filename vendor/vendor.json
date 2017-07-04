@@ -120,6 +120,12 @@
 			"revision": "e0b63eb299a769ea4b04dadfe530f6074b277afb"
 		},
 		{
+			"checksumSHA1": "htjvdG/znrHmFYRQBqA2vHrJsF4=",
+			"comment": "v0.10.0-19-gf3cfb45",
+			"path": "github.com/Sirupsen/logrus",
+			"revision": "f3cfb454f4c209e6668c95216c4744b8fddb2356"
+		},
+		{
 			"checksumSHA1": "HttiPj314X1a0i2Jen1p6lRH/vE=",
 			"path": "github.com/aliyun/aliyun-oss-go-sdk/oss",
 			"revision": "e6dbea820a9f304b43d3b357dd48ced23b86df72",
@@ -787,6 +793,11 @@
 			"revision": "eecf4c70c626c7cfbb95c90195bc34d386c74ac6"
 		},
 		{
+			"checksumSHA1": "a8pKVn7oatLuLY5G0L4WnYqmHy8=",
+			"path": "github.com/nilshell/xmlrpc",
+			"revision": "41b9444050f7a0494a44cd5644f5048aa8261b17"
+		},
+		{
 			"checksumSHA1": "gcLub3oB+u4QrOJZcYmk/y2AP4k=",
 			"path": "github.com/nu7hatch/gouuid",
 			"revision": "179d4d0c4d8d407a32af483c2354df1d2c91e6c3"
@@ -890,6 +901,11 @@
 			"path": "github.com/xanzy/go-cloudstack/cloudstack",
 			"revision": "7d6a4449b586546246087e96e5c97dbc450f4917",
 			"revisionTime": "2016-09-28T15:38:44Z"
+		},
+		{
+			"checksumSHA1": "rjpNUZKBYfV3LZ8XPES0o2lbgM4=",
+			"path": "github.com/xenserver/go-xenserver-client",
+			"revision": "42dc9035c2e805b844614741d804f308bacb7490"
 		},
 		{
 			"checksumSHA1": "h+pFYiRHBogczS8/F1NoN3Ata44=",
@@ -1102,5 +1118,5 @@
 			"revision": "860cbeca3ebcc600db0b213c0e83ad6ce91f5739"
 		}
 	],
-	"rootPath": "github.com/hashicorp/packer"
+	"rootPath": "github.com/timoc/packer"
 }

@@ -38,6 +38,8 @@ import (
 	virtualboxovfbuilder "github.com/hashicorp/packer/builder/virtualbox/ovf"
 	vmwareisobuilder "github.com/hashicorp/packer/builder/vmware/iso"
 	vmwarevmxbuilder "github.com/hashicorp/packer/builder/vmware/vmx"
+	xenserverisobuilder "github.com/hashicorp/packer/builder/xenserver/iso"
+	xenserverxvabuilder "github.com/hashicorp/packer/builder/xenserver/xva"
 	alicloudimportpostprocessor "github.com/hashicorp/packer/post-processor/alicloud-import"
 	amazonimportpostprocessor "github.com/hashicorp/packer/post-processor/amazon-import"
 	artificepostprocessor "github.com/hashicorp/packer/post-processor/artifice"
@@ -100,6 +102,8 @@ var Builders = map[string]packer.Builder{
 	"virtualbox-ovf":      new(virtualboxovfbuilder.Builder),
 	"vmware-iso":          new(vmwareisobuilder.Builder),
 	"vmware-vmx":          new(vmwarevmxbuilder.Builder),
+	"xenserver-iso":       new(xenserverisobuilder.Builder),
+	"xenserver-xva":       new(xenserverxvabuilder.Builder),
 }
 
 var Provisioners = map[string]packer.Provisioner{
